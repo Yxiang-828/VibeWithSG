@@ -1,0 +1,8 @@
+phase: P3
+inherits: configs/02_full_res.yaml
+training:
+  loss: ce_dice_lovasz
+  class_weights: median_frequency
+augmentation:
+  copy_paste_rare_classes: [4, 6, 7, 8]
+

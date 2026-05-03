@@ -1,0 +1,13 @@
+numpy
+pillow
+opencv-contrib-python
+tqdm
+matplotlib
+pyyaml
+albumentations==1.4.18
+timm
+einops
+scipy
+scikit-learn
+tensorboard
+

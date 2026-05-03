@@ -1,0 +1,9 @@
+phase: P1
+inherits: configs/00_baseline_fixed.yaml
+model:
+  backbone: dinov2_vitl14_reg
+  decoder: dpt
+training:
+  epochs: 40
+  freeze_backbone: true
+  optimizer: adamw

@@ -1,0 +1,9 @@
+phase: P2
+inherits: configs/01_dinov2_l_dpt.yaml
+model:
+  image_size: [532, 952]
+inference:
+  sliding_window: true
+  crop_size: [644, 644]
+  stride: [448, 448]
+

@@ -1,0 +1,9 @@
+phase: P5
+inherits: configs/02_full_res.yaml
+inference:
+  hflip_tta: true
+  scales: [1.0]
+  checkpoint: runs/P2_cloud/best.pt
+  prediction_dir: final_package/predictions_p2_hflip_raw
+submission:
+  output_format: raw_id

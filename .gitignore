@@ -1,0 +1,7 @@
+# reassembled full weights (reassemble from chunks/ per README §1.1)
+/weights/best.pt
+
+# local caches
+__pycache__/
+*.pyc
+.DS_Store

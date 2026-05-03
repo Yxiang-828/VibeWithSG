@@ -1,0 +1,8 @@
+phase: P4
+inherits: configs/03_lovasz_copypaste.yaml
+training:
+  epochs: 15
+  freeze_backbone: false
+  unfreeze_last_blocks: 4
+  llrd: 0.75
+

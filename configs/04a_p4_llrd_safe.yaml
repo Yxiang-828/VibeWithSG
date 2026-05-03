@@ -1,0 +1,11 @@
+phase: P4A
+inherits: configs/02_full_res.yaml
+training:
+  epochs: 80
+  freeze_backbone: false
+  unfreeze_last_blocks: 8
+  llrd: 0.75
+  lr: 0.00005
+  backbone_lr: 0.00001
+  loss: cross_entropy
+  class_weights: null

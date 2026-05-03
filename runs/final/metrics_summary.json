@@ -1,0 +1,40 @@
+{
+  "P0": {
+    "best_epoch": 10.0,
+    "best_val_loss": 0.5108,
+    "best_val_miou": 0.3761,
+    "last_epoch": 10.0,
+    "last_val_accuracy": 0.807,
+    "last_val_loss": 0.5108,
+    "last_val_miou": 0.3761
+  },
+  "P1": {
+    "best_epoch": 39.0,
+    "best_val_loss": 0.37025320782847276,
+    "best_val_miou": 0.5717265079219639,
+    "last_epoch": 40.0,
+    "last_val_accuracy": 0.8464323385007332,
+    "last_val_loss": 0.3704161709492177,
+    "last_val_miou": 0.5682537049226996
+  },
+  "P2": {
+    "best_epoch": 59.0,
+    "best_val_loss": 0.3162419012497201,
+    "best_val_miou": 0.6350360501386427,
+    "last_epoch": 60.0,
+    "last_val_accuracy": 0.8669560302952328,
+    "last_val_loss": 0.3161378947464615,
+    "last_val_miou": 0.6338533906829483
+  },
+  "P4A": {
+    "best_epoch": 59,
+    "best_val_miou": 0.6361,
+    "description": "unfreeze last 8 blocks + LLRD 0.75, resumed from P2"
+  },
+  "P4A_multiscale_test": {
+    "test_miou_present_classes": 0.4213580629185919,
+    "pixel_accuracy": 0.6909639151480989,
+    "tta": "scales [420,532,644] + horizontal flip",
+    "num_images": 1002
+  }
+}
