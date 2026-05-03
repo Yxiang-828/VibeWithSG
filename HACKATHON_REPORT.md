@@ -6,10 +6,9 @@
 |---|---|
 | **Team name** | SyntaxError |
 | **Team members** | Yao Xiang (solo) |
-| **Project** | Desert semantic segmentation with DINOv2-L + DPT, multi-scale TTA |
-| **Headline — test mIoU** | **0.4214** on 1002 testImages |
-| **Test pixel accuracy** | 0.691 |
-| **Validation mIoU** | 0.636 on the in-distribution val split |
+| **Project** | Desert semantic segmentation (DINOv2-L + DPT) |
+| **mIoU (OOD Test / Val)** | **0.4214** / **0.6361** |
+| **Test Pixel Accuracy** | 0.691 |
 | **Submission date** | May 2026 |
 
 **Tagline.** A single-person team, a consumer AMD GPU for development, 30 USD of H100 cloud time for the heavy lifts — one foundation-model backbone, one DPT decoder, one fine-tune pass, and honest test-set reporting.
@@ -166,4 +165,4 @@ A single-person submission achieving **0.4214 test mIoU** and **0.691 pixel accu
 
 ---
 
-Submission artefacts: `REPORT.md` (this document), `REPORT.pdf` (export), `README.md` (reproduction), `test_metrics.json` (authoritative per-class IoU + confusion), `runs/final/` (figures), `weights/best.pt` (model, as 23 chunks), `predictions/` (1002 masks), `scripts/test.py` (judge entry point).
+Submission artefacts: `HACKATHON_REPORT.md` (this document), `HACKATHON_REPORT.pdf` (export), `README.md` (reproduction), `test_metrics.json` (authoritative per-class IoU + confusion), `runs/final/` (figures), `weights/best.pt` (model, as 23 chunks), `predictions/` (1002 masks), `scripts/test.py` (judge entry point).

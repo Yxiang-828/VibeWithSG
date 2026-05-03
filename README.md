@@ -7,22 +7,19 @@
 
 Submission for Duality AI's Offroad Autonomy Semantic Segmentation challenge.
 
-Per hackathon documentation §3.i, this README provides:
-1. Step-by-step instructions to run and test the model
-2. How to reproduce the final results
-3. Environment / dependency requirements
-4. Notes on expected outputs and how to interpret them
+### 🎯 Submission Highlights
+- **Final Result:** 0.4214 mIoU (Test) / 0.6361 mIoU (Validation)
+- **Core Deliverables:** `HACKATHON_REPORT.pdf`, `test_metrics.json`, `predictions/`, `weights/`
+- **Reproduction:** See §2 for bit-accurate reproduction instructions.
 
 ## 0. Headline numbers
 
 | Metric | Value |
 |---|---|
-| **Test mIoU (1002 images, multi-scale + HFlip TTA)** | **0.4214** |
+| **mIoU (OOD Test / In-Dist Val)** | **0.4214** / **0.6361** |
 | Test pixel accuracy | 0.691 |
-| Validation mIoU (in-distribution split) | 0.636 |
-| Final model | DINOv2-L + DPT, last 8 blocks unfrozen with LLRD |
-| Checkpoint | `weights/best.pt` (2.0 GB, stored as 23 chunks for GitHub) |
-| Source of truth | `test_metrics.json` (per-class IoU + 11×11 confusion matrix) |
+| Model | DINOv2-L + DPT (unfrozen backbone with LLRD) |
+| Checkpoint | `weights/best.pt` (2.0 GB, as 23 chunks) |
 
 See `HACKATHON_REPORT.pdf` §4 for an honest explanation of why val and test differ.
 
